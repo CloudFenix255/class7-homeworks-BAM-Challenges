@@ -1,0 +1,10 @@
+name,az,cidr,tier,mask_bits,usable_ips
+public-a,sa-east-1a,10.42.0.0/24,public,24,251
+public-b,sa-east-1b,10.42.1.0/24,public,24,251
+public-c,sa-east-1c,10.42.2.0/24,public,24,251
+private-app-a,sa-east-1a,10.42.10.0/24,private-app,24,251
+private-app-b,sa-east-1b,10.42.11.0/24,private-app,24,251
+private-app-c,sa-east-1c,10.42.12.0/24,private-app,24,251
+private-db-a,sa-east-1a,10.42.20.0/24,private-db,24,251
+private-db-b,sa-east-1b,10.42.21.0/24,private-db,24,251
+private-db-c,sa-east-1c,10.42.22.0/24,private-db,24,251
