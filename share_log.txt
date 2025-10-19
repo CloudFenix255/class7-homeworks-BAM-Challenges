@@ -1,0 +1,9 @@
+# Week 6 – Share Log
+
+> List at least one person you shared these instructions with, and confirm they successfully deployed Terraform.
+
+- Name: ______________________
+- Date shared: 2025-10-19
+- Method (email/chat/in-person): ______________________
+- Result: ✅ Successfully deployed using these instructions
+- Notes: ________________________________________________________
