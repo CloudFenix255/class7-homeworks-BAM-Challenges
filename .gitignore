@@ -1,24 +1,29 @@
+# Terraform
 .terraform/
+.terraform.tfstate.lock.info
 *.tfstate
 *.tfstate.*
-.terraform.lock.hcl
 crash.log
+crash.*.log
+
+# Plans
+plan.out
+
+# Local overrides & tfvars (keep secrets out of git)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-.terraformrc
-terraform.rc
 
-# IDE/editor folders
+# OS/IDE
+.DS_Store
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS files
-.DS_Store
-
-# Secrets / local config (do not commit)
-*.tfvars
-*.tfvars.json
-.env
-whoami.txt
+# IMPORTANT: keep this tracked (do NOT ignore)
+# .terraform.lock.hcl
